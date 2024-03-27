@@ -1,3 +1,5 @@
+@import 'assets/styles/variables.scss';
+
 /* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: Gotham;
@@ -10,4 +12,25 @@ body {
     color: #4a4a4a;
     margin: 0;
     padding: 0;
+}
+
+.textbox {
+    box-sizing: border-box;
+    border-radius: $ui-border-radius;
+    border: 1px solid $light-gray;
+    padding: $ui-padding;
+    height: $ui-height;
+
+    &:active, &:focus {
+        border-color: $branding-color;
+        box-shadow: $ui-box-shadow;
+        outline: 0;
+    }
+}
+
+.button {
+    @extend .textbox;
+    border: 1px solid $branding-color;
+    background: $ui-gradient;
+    color: white;
 }

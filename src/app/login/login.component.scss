@@ -1,0 +1,47 @@
+@import 'assets/styles/variables.scss';
+
+#container {
+    padding: 20px;
+}
+
+#logo {
+    margin: 30px;
+    background: url(/assets/images/logo.svg) no-repeat center;
+    background-size: contain;
+    height: 48px;
+}
+
+#profile-picture {
+    background: url(/assets/images/profile-picture.png);
+    background-size: cover;
+    margin: 50px auto;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+#username, #password {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+
+#login {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+#spacer {
+    height: 100px;
+}
+
+a {
+    text-align: center;
+    font-weight: lighter;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    color: $branding-color;
+}
