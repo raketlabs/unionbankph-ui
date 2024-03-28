@@ -1,5 +1,6 @@
-# Let's code Union Bank UI
-[Part 1](https://www.instagram.com/reel/C4-I921OYEB/)
+# Let's code the [Union Bank](https://www.instagram.com/unionbankph/) UI 👨🏻‍💻🚀
+- [Part 1](https://www.instagram.com/reel/C4-I921OYEB/)
+- [Part 2](https://www.instagram.com/reel/C5A-MXIRX7z/)
 
 # UnionbankphUi
 
